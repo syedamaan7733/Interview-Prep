@@ -39,25 +39,9 @@ var addTwoNumbers = function (l1, l2) {
 };
 ```
 
-### 2. Reshape the Image
+### 2. Other Linked List Problems
 
-[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
-
-```javascript
-/**
- * @param {number[][]} image
- * @return {number[][]}
- */
-var flipAndInvertImage = function (image) {
-  let revImage = image.map((item) =>
-    item.reverse().map((ele) => (ele === 1 ? 0 : 1))
-  );
-  return revImage;
-};
-```
-
-### 3. Other Linked List Problems
-
+- [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
 - [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
 - [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
 - [Rotate List](https://leetcode.com/problems/rotate-list/description/)
@@ -99,12 +83,28 @@ var islandPerimeter = function (grid) {
 };
 ```
 
+### 2. Flipping the Image
+
+[Flipping an Image](https://leetcode.com/problems/flipping-an-image/description/)
+
+```javascript
+/**
+ * @param {number[][]} image
+ * @return {number[][]}
+ */
+var flipAndInvertImage = function (image) {
+  let revImage = image.map((item) =>
+    item.reverse().map((ele) => (ele === 1 ? 0 : 1))
+  );
+  return revImage;
+};
+```
+
 ### 2. Other Matrix Problems
 
 - [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/)
 - [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)
 - [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)
-- [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description/)
 - [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/description/)
 - [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/description/)
 - [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/)
