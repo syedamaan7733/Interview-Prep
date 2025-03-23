@@ -12,7 +12,7 @@ import { store } from "./redux/store.redux";
 import Header from "./component/Header";
 import ProtectedRoute from "./component/auth/ProdtectedRoute";
 import HomePage from "./pages/HomePage";
-import LoginPage from "./pages/authPage";
+import LoginPage from "./pages/AuthPage";
 import ProductsPage from "./pages/ProductPage";
 
 const initializeTheme = () => {
